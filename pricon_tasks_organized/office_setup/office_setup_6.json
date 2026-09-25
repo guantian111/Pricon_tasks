@@ -1,0 +1,45 @@
+{
+  "id": "office_setup_v6",
+  "name": "Office Setup Variant 5",
+  "task": "Please complete the following four-stage office task.\n\nYou need to set up 3 new employee workstations. Each: printed nameplate, welcome packet (5 pages stapled), desk supplies (pen, notebook, sticky notes). Supplies: printer with 50 sheets, 3 sets of supplies, stapler.\n\nPrint and organize the documents.\n\nBind and compile the documents.\n\nDispose of waste and organize workspace.",
+  "subtasks": [
+    {
+      "name": "Material and workspace preparation, gathering and processing",
+      "aliases": [
+        "supply gathering",
+        "collect materials",
+        "gather items",
+        "prepare materials",
+        "process incoming items",
+        "sort and file items",
+        "set up workspace",
+        "organize materials",
+        "archive items",
+        "prepare mailing",
+        "clean up area",
+        "update materials"
+      ]
+    },
+    {
+      "name": "Document printing and desk organization",
+      "aliases": [
+        "office floor plan design"
+      ]
+    },
+    {
+      "name": "Document assembly and binding",
+      "aliases": [
+        "document stapling"
+      ]
+    },
+    {
+      "name": "Document disposal and workspace cleanup",
+      "aliases": [
+        "shred document"
+      ]
+    }
+  ],
+  "original_id": "office_setup_v6",
+  "category": "Office setup",
+  "index": 6
+}

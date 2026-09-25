@@ -1,0 +1,34 @@
+{
+  "id": "budget_allocation_v4",
+  "name": "Budget Allocation Variant 3",
+  "task": "Please complete the following four-stage budget task.\n\nA hospital: $20,000,000. Emergency (30%), Surgery (25%), Pediatrics (20%), Admin (15%), Research (10%). Surgery needs $500,000 for new equipment. Minimum 10% per department.\n\nCalculate NPV for each proposed project.\n\nReallocate within budget caps.\n\nCompare allocation strategies.",
+  "subtasks": [
+    {
+      "name": "Department budget percentage allocation",
+      "aliases": [
+        "budget proportional allocation"
+      ]
+    },
+    {
+      "name": "Project NPV calculation and evaluation",
+      "aliases": [
+        "NPV calculation"
+      ]
+    },
+    {
+      "name": "Budget constraint optimization",
+      "aliases": [
+        "budget constraint optimization"
+      ]
+    },
+    {
+      "name": "Scenario comparison and decision",
+      "aliases": [
+        "counterfactual decision"
+      ]
+    }
+  ],
+  "original_id": "budget_allocation_v4",
+  "category": "Budget allocation",
+  "index": 4
+}

@@ -1,0 +1,40 @@
+{
+  "id": "logic_v7",
+  "name": "Class Schedule Puzzle",
+  "task": "Please complete the following four-stage logic puzzle task in order.\n\nFive courses (Math, English, History, Science, Art) are scheduled in periods 1-5 on Monday. Five teachers (Mr. A, Ms. B, Dr. C, Prof. D, Mrs. E) each teach one course. Extract these facts:\n- Math is not in period 1 or 5\n- Ms. B teaches in period 3\n- History is taught by Dr. C\n- Science is in a later period than English\n- Art is in period 5\n\nApply these additional constraints:\n- Mr. A's period is earlier than Prof. D's\n- The Math teacher is not Ms. B or Mrs. E\n- English is in period 2\n- Mrs. E teaches either period 1 or period 4\n- Prof. D does not teach Science\n\nEliminate impossible course-period-teacher assignments. Cross-reference all constraints.\n\nOutput each period's course and teacher. Verify all constraints.",
+  "subtasks": [
+    {
+      "name": "Direct fact extraction from puzzle description",
+      "aliases": [
+        "known fact extraction",
+        "puzzle constraint extraction"
+      ]
+    },
+    {
+      "name": "Relational constraint inference and deduction",
+      "aliases": [
+        "constraint satisfaction inference",
+        "logical deduction from clues",
+        "positional relationship reasoning"
+      ]
+    },
+    {
+      "name": "Constraint propagation and candidate elimination",
+      "aliases": [
+        "elimination via constraints",
+        "candidate pruning",
+        "cross-category exclusion"
+      ]
+    },
+    {
+      "name": "Complete assignment verification and output",
+      "aliases": [
+        "final assignment verification",
+        "solution validation"
+      ]
+    }
+  ],
+  "original_id": "logic_v7",
+  "category": "Logic grid",
+  "index": 7
+}

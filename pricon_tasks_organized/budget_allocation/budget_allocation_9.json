@@ -1,0 +1,34 @@
+{
+  "id": "budget_allocation_v9",
+  "name": "Budget Allocation Variant 8",
+  "task": "Please complete the following four-stage budget task.\n\nA tech company: $8,000,000. Engineering (50%), Sales (25%), Support (15%), HR (10%). Engineering wants $400,000 for cloud costs. Sales minimum: $1,500,000.\n\nCalculate NPV for each proposed project.\n\nReallocate within budget caps.\n\nCompare allocation strategies.",
+  "subtasks": [
+    {
+      "name": "Department budget percentage allocation",
+      "aliases": [
+        "budget proportional allocation"
+      ]
+    },
+    {
+      "name": "Project NPV calculation and evaluation",
+      "aliases": [
+        "NPV calculation"
+      ]
+    },
+    {
+      "name": "Budget constraint optimization",
+      "aliases": [
+        "budget constraint optimization"
+      ]
+    },
+    {
+      "name": "Scenario comparison and decision",
+      "aliases": [
+        "counterfactual decision"
+      ]
+    }
+  ],
+  "original_id": "budget_allocation_v9",
+  "category": "Budget allocation",
+  "index": 9
+}

@@ -1,0 +1,34 @@
+{
+  "id": "recursive_expansion_v10",
+  "name": "Recursive Expansion Variant 9",
+  "task": "Please complete the following four-stage sequence analysis task.\n\nA stock price: starts at $50. Each month: 60% chance +$5, 40% chance -$3. Track over 2 years.\n\nGenerate the first 8 terms using the pattern.\n\nTry to derive a closed-form expression.\n\nPredict term 20 and verify.",
+  "subtasks": [
+    {
+      "name": "Pattern identification and base cases",
+      "aliases": [
+        "recursive formula extraction"
+      ]
+    },
+    {
+      "name": "Term generation and iterative computation",
+      "aliases": [
+        "sequential term computation"
+      ]
+    },
+    {
+      "name": "Formula derivation",
+      "aliases": [
+        "general formula derivation"
+      ]
+    },
+    {
+      "name": "Prediction and recommendation",
+      "aliases": [
+        "large index verification"
+      ]
+    }
+  ],
+  "original_id": "recursive_expansion_v10",
+  "category": "Recursive expansion",
+  "index": 10
+}

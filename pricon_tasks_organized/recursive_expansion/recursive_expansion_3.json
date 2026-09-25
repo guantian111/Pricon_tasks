@@ -1,0 +1,34 @@
+{
+  "id": "recursive_expansion_v3",
+  "name": "Recursive Expansion Variant 2",
+  "task": "Please complete the following four-stage sequence analysis task.\n\nA savings account starts with $1,000. Each year, interest of 5% is added, then $200 is deposited.\n\nGenerate the first 8 terms using the pattern.\n\nTry to derive a closed-form expression.\n\nPredict term 20 and verify.",
+  "subtasks": [
+    {
+      "name": "Pattern identification and base cases",
+      "aliases": [
+        "recursive formula extraction"
+      ]
+    },
+    {
+      "name": "Term generation and iterative computation",
+      "aliases": [
+        "sequential term computation"
+      ]
+    },
+    {
+      "name": "Formula derivation",
+      "aliases": [
+        "general formula derivation"
+      ]
+    },
+    {
+      "name": "Prediction and recommendation",
+      "aliases": [
+        "large index verification"
+      ]
+    }
+  ],
+  "original_id": "recursive_expansion_v3",
+  "category": "Recursive expansion",
+  "index": 3
+}

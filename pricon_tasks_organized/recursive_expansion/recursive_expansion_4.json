@@ -1,0 +1,34 @@
+{
+  "id": "recursive_expansion_v4",
+  "name": "Recursive Expansion Variant 3",
+  "task": "Please complete the following four-stage sequence analysis task.\n\nA rabbit population: each pair produces 2 offspring per month. Start with 3 pairs. No deaths.\n\nGenerate the first 8 terms using the pattern.\n\nTry to derive a closed-form expression.\n\nPredict term 20 and verify.",
+  "subtasks": [
+    {
+      "name": "Pattern identification and base cases",
+      "aliases": [
+        "recursive formula extraction"
+      ]
+    },
+    {
+      "name": "Term generation and iterative computation",
+      "aliases": [
+        "sequential term computation"
+      ]
+    },
+    {
+      "name": "Formula derivation",
+      "aliases": [
+        "general formula derivation"
+      ]
+    },
+    {
+      "name": "Prediction and recommendation",
+      "aliases": [
+        "large index verification"
+      ]
+    }
+  ],
+  "original_id": "recursive_expansion_v4",
+  "category": "Recursive expansion",
+  "index": 4
+}

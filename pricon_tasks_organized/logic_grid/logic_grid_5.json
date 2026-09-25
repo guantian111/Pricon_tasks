@@ -1,0 +1,40 @@
+{
+  "id": "logic_v5",
+  "name": "Book Club Puzzle",
+  "task": "Please complete the following four-stage logic puzzle task in order.\n\nSix book club members read different genres (mystery, romance, sci-fi, biography, fantasy, history) in different months (Jan-Jun). Extract these facts:\n- The mystery reader's month is before the romance reader's\n- The sci-fi book was read in March\n- The biography reader's month is after April\n- The fantasy reader and the history reader are 2 months apart\n- The June reader prefers romance\n\nApply these additional constraints:\n- The mystery reader's month is not February\n- The sci-fi reader is not the same person who reads in June\n- The biography is not read in April\n- The fantasy reader's month is earlier than the history reader's\n- The January reader does not read sci-fi\n\nEliminate impossible genre-month assignments. Cross-reference to narrow down.\n\nOutput which genre is read in each month. Verify all constraints.",
+  "subtasks": [
+    {
+      "name": "Direct fact extraction from puzzle description",
+      "aliases": [
+        "known fact extraction",
+        "puzzle constraint extraction"
+      ]
+    },
+    {
+      "name": "Relational constraint inference and deduction",
+      "aliases": [
+        "constraint satisfaction inference",
+        "logical deduction from clues",
+        "positional relationship reasoning"
+      ]
+    },
+    {
+      "name": "Constraint propagation and candidate elimination",
+      "aliases": [
+        "elimination via constraints",
+        "candidate pruning",
+        "cross-category exclusion"
+      ]
+    },
+    {
+      "name": "Complete assignment verification and output",
+      "aliases": [
+        "final assignment verification",
+        "solution validation"
+      ]
+    }
+  ],
+  "original_id": "logic_v5",
+  "category": "Logic grid",
+  "index": 5
+}

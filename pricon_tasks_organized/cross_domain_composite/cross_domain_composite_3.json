@@ -1,0 +1,34 @@
+{
+  "id": "composite_cross_domain_v3",
+  "name": "Composite Cross Domain Variant 2",
+  "task": "Please complete the following four-stage multi-domain task.\n\nA university's strategic plan (30 pages): enrollment 15,000, tuition $12K/student, 5 colleges. Each proposes expansion: Engineering ($5M, 200 new students), Business ($3M, 150 students), Arts ($2M, 100 students). Budget: $8M.\n\nCalculate NPV of the investment.\n\nOptimize budget allocation.\n\nRecommend the best course of action.",
+  "subtasks": [
+    {
+      "name": "Report data extraction and information retrieval",
+      "aliases": [
+        "information retrieval extraction"
+      ]
+    },
+    {
+      "name": "Project investment NPV calculation",
+      "aliases": [
+        "net present value calculation"
+      ]
+    },
+    {
+      "name": "Budget allocation optimization",
+      "aliases": [
+        "budget constraint allocation optimization"
+      ]
+    },
+    {
+      "name": "Scenario comparison and investment decision",
+      "aliases": [
+        "what-if scenario decision"
+      ]
+    }
+  ],
+  "original_id": "composite_cross_domain_v3",
+  "category": "Composite cross-domain",
+  "index": 3
+}
