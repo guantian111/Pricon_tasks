@@ -1,0 +1,41 @@
+{
+  "id": "alibi_verification_4",
+  "name": "Hotel Fire Alibi Verification",
+  "task": "Please complete the following four-stage alibi verification task in order.\n\n=== Stage 1: Suspect Timeline Extraction ===\nA fire broke out at the Grand Hotel at 2:15am. Three guests are suspects:\n- Guest A (Robert): Room 302. Claims he was asleep since 11pm. Hotel keycard shows his door opened at 1:45am and 2:30am.\n- Guest B (Linda): Room 415. Claims she was at the hotel bar until 1am, then went to her room. Bar receipt: 12:45am. Keycard: 1:05am room entry.\n- Guest C (Michael): Room 208. Claims he was in the lobby using WiFi from 12am-3am. Lobby camera shows him from 12:10am-1:50am, then he disappears until 2:40am.\nThe fire started in the kitchen (near room 208) at 2:15am. The fire alarm was pulled manually at 2:18am. Extract each guest's timeline.\n\n=== Stage 2: Evidence Cross-Comparison ===\nCross-reference against:\n- Smoke detector logs: kitchen detector triggered at 2:14am, hallway detector at 2:16am\n- Elevator logs: elevator used at 2:12am (goes near room 208)\n- Stairwell access: stairwell door on floor 2 opened at 2:13am and 2:45am\n- Fire alarm: manual pull station near room 208 activated at 2:18am\n- Witness: night clerk saw someone in dark clothing near kitchen at 2:10am\n\n=== Stage 3: Contradiction Resolution ===\nResolve with priority: electronic logs > camera footage > witness testimony > suspect statements. Physical evidence timestamps are authoritative.\n\n=== Stage 4: Final Determination ===\nDetermine who set the fire and who pulled the alarm. Identify verified alibis and most likely arsonist.",
+  "subtasks": [
+    {
+      "name": "Suspect multi-agent timeline extraction",
+      "aliases": [
+        "hotel guest timeline",
+        "keycard timeline",
+        "camera footage timeline"
+      ]
+    },
+    {
+      "name": "Evidence-testimony cross-comparison contradiction detection",
+      "aliases": [
+        "smoke detector comparison",
+        "elevator log analysis",
+        "witness statement verification"
+      ]
+    },
+    {
+      "name": "Timeline contradiction resolution and consistency adjustment",
+      "aliases": [
+        "electronic log priority",
+        "timeline resolution",
+        "sensor data reconciliation"
+      ]
+    },
+    {
+      "name": "Suspect alibi final determination",
+      "aliases": [
+        "arsonist identification",
+        "alarm puller identification",
+        "final determination"
+      ]
+    }
+  ],
+  "original_id": "alibi_v4",
+  "category": "Alibi verification"
+}

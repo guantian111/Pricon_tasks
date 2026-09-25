@@ -1,0 +1,40 @@
+{
+  "id": "alibi_verification_5",
+  "name": "Bank Robbery Alibi Verification",
+  "task": "Please complete the following four-stage alibi verification task in order.\n\n=== Stage 1: Suspect Timeline Extraction ===\nThe First National Bank was robbed at 3:30pm on Tuesday. Four suspects:\n- Suspect 1 (Frank): Claims he was at a dentist appointment from 3pm-4pm. Dentist records show check-in at 3:05pm, procedure started at 3:20pm.\n- Suspect 2 (Grace): Claims she was shopping at the mall across town. Credit card used at 3:15pm (mall store) and 4:10pm (coffee shop).\n- Suspect 3 (Henry): Claims he was at his office. Computer login at 2:50pm, sent email at 3:25pm, logged out at 4pm.\n- Suspect 4 (Iris): Claims she was driving home from work. GPS in her car shows route at 3pm-3:45pm, passing within 2 blocks of the bank at 3:28pm.\nThe robber entered at 3:28pm, demanded money, and fled at 3:33pm. Extract each timeline.\n\n=== Stage 2: Evidence Cross-Comparison ===\nCross-reference against:\n- Bank cameras: robber is 5'10\"-6'0\", medium build, wearing a ski mask\n- Cell tower data: F's phone near bank at 3:32pm, G's phone at mall, H's phone at office, I's phone near bank\n- Witness: a passerby saw someone matching F's description running from the bank at 3:34pm\n- Vehicle: a car matching I's description was parked near the bank from 3:20pm-3:40pm\n\n=== Stage 3: Contradiction Resolution ===\nResolve by priority: cell tower > camera > GPS > witness > suspect statements.\n\n=== Stage 4: Final Determination ===\nIdentify the robber. Rank suspects by likelihood. Note any accomplice scenarios.",
+  "subtasks": [
+    {
+      "name": "Suspect multi-agent timeline extraction",
+      "aliases": [
+        "bank robbery timeline",
+        "suspect schedule extraction",
+        "alibi timeline"
+      ]
+    },
+    {
+      "name": "Evidence-testimony cross-comparison contradiction detection",
+      "aliases": [
+        "cell tower analysis",
+        "camera evidence comparison",
+        "GPS verification"
+      ]
+    },
+    {
+      "name": "Timeline contradiction resolution and consistency adjustment",
+      "aliases": [
+        "electronic evidence priority",
+        "timeline reconciliation"
+      ]
+    },
+    {
+      "name": "Suspect alibi final determination",
+      "aliases": [
+        "robber identification",
+        "accomplice detection",
+        "final verdict"
+      ]
+    }
+  ],
+  "original_id": "alibi_v5",
+  "category": "Alibi verification"
+}

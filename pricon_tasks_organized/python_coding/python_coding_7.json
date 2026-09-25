@@ -1,0 +1,37 @@
+{
+  "id": "python_coding_7",
+  "name": "Mini Language Interpreter",
+  "task": "Please complete the following mini-interpreter task. Each stage builds the next.\n\n=== Stage 1: Tokenizer ===\nTokenize a simple language with integers, variables, + - * /, parentheses, = assignment, and print statements.\n\n=== Stage 2: Parser ===\nImplement a recursive descent parser producing an AST for expressions, assignments, and print statements (respecting operator precedence).\n\n=== Stage 3: Evaluator ===\nImplement a tree-walking evaluator with a variable environment.\n\n=== Stage 4: Execution and Verification ===\nRun the program: x = 3; y = x * 4 + 2; z = (y - 2) / 3; print z. Report the printed value.\n\n最终回答必须包含: 输出值=___, 变量表=___.",
+  "subtasks": [
+    {
+      "name": "Tokenizer for the mini language",
+      "aliases": [
+        "tokenizer",
+        "lexer"
+      ]
+    },
+    {
+      "name": "Recursive descent parser with precedence",
+      "aliases": [
+        "parser",
+        "AST precedence"
+      ]
+    },
+    {
+      "name": "Tree-walking evaluator with environment",
+      "aliases": [
+        "evaluator",
+        "environment"
+      ]
+    },
+    {
+      "name": "Program execution and output verification",
+      "aliases": [
+        "execute",
+        "verify output"
+      ]
+    }
+  ],
+  "original_id": "coding_interpreter",
+  "category": "Python coding"
+}

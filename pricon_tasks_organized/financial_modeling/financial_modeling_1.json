@@ -1,0 +1,33 @@
+{
+  "id": "financial_modeling_1",
+  "name": "Solar Farm Installation Analysis",
+  "task": "Please complete the following four-stage financial analysis task.\n\n=== Stage 1: Cash Flow Projection ===\nA solar farm installation: $750,000. Energy cost reduction: $95,000/year. Inverter replacement at year 5: $40,000. 12-year life.\n\n=== Stage 2: NPV Calculation ===\nCalculate NPV at 7% and 11% discount rates.\n\n=== Stage 3: Sensitivity Analysis ===\nVary key parameters by ±20%.\n\n=== Stage 4: Recommendation ===\nShould the investment proceed?",
+  "subtasks": [
+    {
+      "name": "Cash flow projection",
+      "aliases": [
+        "net present value calculation"
+      ]
+    },
+    {
+      "name": "NPV calculation",
+      "aliases": [
+        "financial sensitivity analysis"
+      ]
+    },
+    {
+      "name": "Sensitivity analysis",
+      "aliases": [
+        "break-even calculation"
+      ]
+    },
+    {
+      "name": "Investment recommendation",
+      "aliases": [
+        "investment decision"
+      ]
+    }
+  ],
+  "original_id": "financial_model_v1",
+  "category": "Financial modeling"
+}

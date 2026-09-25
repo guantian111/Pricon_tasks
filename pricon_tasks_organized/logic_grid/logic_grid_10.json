@@ -1,0 +1,39 @@
+{
+  "id": "logic_grid_10",
+  "name": "Garden Plot Puzzle",
+  "task": "Please complete the following four-stage logic puzzle task in order.\n\n=== Stage 1: Direct Fact Extraction ===\nA community garden has six plots in a row. Six gardeners plant different vegetables (tomato, carrot, lettuce, pepper, cucumber, bean). Extract these facts:\n- The tomato is planted to the left of the carrot\n- The lettuce is at one end of the row\n- The pepper is exactly three plots from the cucumber\n- The bean is not adjacent to the tomato\n- The carrot is two plots right of the lettuce\n\n=== Stage 2: Relational Constraint Inference ===\nApply these additional constraints:\n- The pepper is between the tomato and the cucumber\n- The bean is planted at an even-numbered plot\n- The lettuce and the cucumber are not adjacent\n- The tomato is at plot 3\n- The carrot is not at plot 6\n\n=== Stage 3: Constraint Propagation and Elimination ===\nEliminate impossible vegetable-plot assignments. Cross-reference to narrow down.\n\n=== Stage 4: Complete Assignment ===\nOutput each plot's vegetable. Verify all constraints.",
+  "subtasks": [
+    {
+      "name": "Direct fact extraction from puzzle description",
+      "aliases": [
+        "known fact extraction",
+        "puzzle constraint extraction"
+      ]
+    },
+    {
+      "name": "Relational constraint inference and deduction",
+      "aliases": [
+        "constraint satisfaction inference",
+        "logical deduction from clues",
+        "positional relationship reasoning"
+      ]
+    },
+    {
+      "name": "Constraint propagation and candidate elimination",
+      "aliases": [
+        "elimination via constraints",
+        "candidate pruning",
+        "cross-category exclusion"
+      ]
+    },
+    {
+      "name": "Complete assignment verification and output",
+      "aliases": [
+        "final assignment verification",
+        "solution validation"
+      ]
+    }
+  ],
+  "original_id": "logic_v10",
+  "category": "Logic grid"
+}

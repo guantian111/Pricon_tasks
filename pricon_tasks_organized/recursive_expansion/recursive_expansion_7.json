@@ -1,0 +1,33 @@
+{
+  "id": "recursive_expansion_7",
+  "name": "Recursive Expansion Variant 6",
+  "task": "Please complete the following four-stage sequence analysis task.\n\n=== Stage 1: Pattern Identification ===\nA viral video: views double daily for first week, then grow by 50% daily. Start: 100 views.\n\n=== Stage 2: Term Generation ===\nGenerate the first 8 terms using the pattern.\n\n=== Stage 3: Formula Derivation ===\nTry to derive a closed-form expression.\n\n=== Stage 4: Prediction ===\nPredict term 20 and verify.",
+  "subtasks": [
+    {
+      "name": "Pattern identification and base cases",
+      "aliases": [
+        "recursive formula extraction"
+      ]
+    },
+    {
+      "name": "Term generation and iterative computation",
+      "aliases": [
+        "sequential term computation"
+      ]
+    },
+    {
+      "name": "Formula derivation",
+      "aliases": [
+        "general formula derivation"
+      ]
+    },
+    {
+      "name": "Prediction and recommendation",
+      "aliases": [
+        "large index verification"
+      ]
+    }
+  ],
+  "original_id": "recursive_expansion_v7",
+  "category": "Recursive expansion"
+}

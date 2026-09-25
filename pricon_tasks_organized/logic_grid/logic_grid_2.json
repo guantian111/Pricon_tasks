@@ -1,0 +1,39 @@
+{
+  "id": "logic_grid_2",
+  "name": "Seating Arrangement Puzzle",
+  "task": "Please complete the following four-stage logic puzzle task in order.\n\n=== Stage 1: Direct Fact Extraction ===\nFive friends (Alice, Bob, Carol, Dave, Eve) are sitting at a round table. Extract these facts:\n- Alice is not next to Bob\n- Carol sits between Alice and Dave\n- Eve is directly opposite Alice\n- Bob is two seats to the left of Dave\n- One person is wearing a red shirt, another blue, another green, another yellow, another black\n\n=== Stage 2: Relational Constraint Inference ===\nApply these additional constraints:\n- The person in red sits next to the person in blue\n- The person in green sits opposite the person in yellow\n- Carol is wearing black\n- The person two seats right of Alice wears blue\n- Dave does not wear green\n\n=== Stage 3: Constraint Propagation and Elimination ===\nUsing the constraints, eliminate impossible seating and color assignments. For each person, determine which positions are possible and which colors are possible. Cross-reference constraints to narrow down possibilities.\n\n=== Stage 4: Complete Assignment ===\nOutput the final seating order (clockwise starting from Alice) and each person's shirt color. Verify all constraints are satisfied.",
+  "subtasks": [
+    {
+      "name": "Direct fact extraction from puzzle description",
+      "aliases": [
+        "known fact extraction",
+        "puzzle constraint extraction"
+      ]
+    },
+    {
+      "name": "Relational constraint inference and deduction",
+      "aliases": [
+        "constraint satisfaction inference",
+        "logical deduction from clues",
+        "positional relationship reasoning"
+      ]
+    },
+    {
+      "name": "Constraint propagation and candidate elimination",
+      "aliases": [
+        "elimination via constraints",
+        "candidate pruning",
+        "cross-category exclusion"
+      ]
+    },
+    {
+      "name": "Complete assignment verification and output",
+      "aliases": [
+        "final assignment verification",
+        "solution validation"
+      ]
+    }
+  ],
+  "original_id": "logic_v2",
+  "category": "Logic grid"
+}

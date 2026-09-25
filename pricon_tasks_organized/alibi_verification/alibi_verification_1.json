@@ -1,0 +1,40 @@
+{
+  "id": "alibi_verification_1",
+  "name": "Harbor Warehouse Arson Alibi Verification",
+  "task": "Please complete the following four-stage alibi verification task in order.\n\n=== Stage 1: Suspect Timeline Extraction ===\nA fire was set at Pier 9's cargo warehouse at 1:20am. Three dockworkers were on site:\n- Worker A (Teresa): Forklift operator. Claims she was moving pallets in Warehouse B. Forklift GPS shows activity at 12:30am, 12:55am, and 1:45am. Gap from 12:55am-1:45am.\n- Worker B (Samuel): Security guard. Claims he was patrolling the north fence line. Gate access log shows check-ins at 12:15am, 12:40am, 1:10am. The burned warehouse is on the south side.\n- Worker C (Dana): Dock clerk. Claims she was in the break room filling out shipping manifests. Break room camera shows her from 12:35am-1:05am, then she exits toward the loading dock.\nThe warehouse requires a coded door entry and a badge swipe. The log shows Teresa's badge and code at 1:18am. The fire was set in 6 minutes. Extract timelines.\n\n=== Stage 2: Evidence Cross-Comparison ===\nCross-reference against:\n- Warehouse smoke detector: disabled at 1:16am\n- Loading dock camera: motion triggered at 1:12am (south side)\n- Perimeter gate log: gate opened at 1:14am (south side)\n- Fuel inventory system: accelerant container logged as moved at 1:22am\n- Witness: Samuel says he saw a forklift near the south warehouse at 1:15am\n- Badge reader: Teresa's badge used at 1:18am, but no corresponding forklift GPS movement\nIdentify all contradictions and confirm or refute each suspect's alibi.\n\n=== Stage 3: Alibi Consistency Analysis ===\nFor each suspect, determine whether their stated timeline is consistent with the physical evidence. Note any unexplained gaps, impossible travel times, or mismatched activity logs. Consider whether the theft of accelerant or disabling of the smoke detector could have been done by someone else. Rank suspects by likelihood of opportunity.\n\n=== Stage 4: Final Conclusion ===\nBased on all evidence, state which suspect is most likely responsible for the arson, explain the key evidence that breaks their alibi, and summarize why the other two suspects are less likely to be involved.",
+  "subtasks": [
+    {
+      "name": "Suspect multi-agent timeline extraction",
+      "aliases": [
+        "hospital staff timeline",
+        "night shift analysis",
+        "access log timeline"
+      ]
+    },
+    {
+      "name": "Evidence-testimony cross-comparison contradiction detection",
+      "aliases": [
+        "inventory system comparison",
+        "elevator log analysis",
+        "camera disable investigation"
+      ]
+    },
+    {
+      "name": "Timeline contradiction resolution and consistency adjustment",
+      "aliases": [
+        "credential theft analysis",
+        "electronic log priority"
+      ]
+    },
+    {
+      "name": "Suspect alibi final determination",
+      "aliases": [
+        "thief identification",
+        "credential analysis",
+        "accomplice detection"
+      ]
+    }
+  ],
+  "original_id": "alibi_v1",
+  "category": "Alibi verification"
+}
