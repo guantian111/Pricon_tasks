@@ -1,0 +1,36 @@
+{
+  "id": "coding_allocator",
+  "name": "Memory Allocator (malloc/free)",
+  "task": "Please complete the following memory allocator task. Implement from scratch over a byte array.\n\n=== Stage 1: Heap and Block Header ===\nRepresent a heap as a byte array with block headers storing size and a free/allocated flag.\n\n=== Stage 2: malloc (First-Fit) ===\nImplement malloc(size) using first-fit, splitting a free block when it is larger than needed.\n\n=== Stage 3: free and Coalescing ===\nImplement free(ptr) that marks a block free and coalesces it with adjacent free blocks.\n\n=== Stage 4: Verification ===\nAllocate blocks of sizes [16, 8, 32, 24], free the 2nd and 3rd, then allocate 16 again. Report the number of free blocks and the total free bytes after each step.\n\n最终回答必须包含: 最终空闲块数=___, 最终空闲字节=___, 第二次分配16的起始偏移=___.",
+  "subtasks": [
+    {
+      "name": "Heap array and block header representation",
+      "aliases": [
+        "heap",
+        "block header"
+      ]
+    },
+    {
+      "name": "First-fit malloc with block splitting",
+      "aliases": [
+        "malloc",
+        "first-fit",
+        "split"
+      ]
+    },
+    {
+      "name": "free with adjacent block coalescing",
+      "aliases": [
+        "free",
+        "coalesce"
+      ]
+    },
+    {
+      "name": "Allocation sequence and free-list verification",
+      "aliases": [
+        "verify",
+        "free list"
+      ]
+    }
+  ]
+}

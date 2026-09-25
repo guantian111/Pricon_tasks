@@ -1,0 +1,31 @@
+{
+  "id": "financial_model_v6",
+  "name": "Financial Model Variant 5",
+  "task": "Please complete the following four-stage financial analysis task.\n\n=== Stage 1: Cash Flow Projection ===\nA restaurant renovation: $200,000. Expected revenue increase: $50,000/year. Higher operating cost: $10,000/year. 7-year horizon.\n\n=== Stage 2: NPV Calculation ===\nCalculate NPV at 8% and 12% discount rates.\n\n=== Stage 3: Sensitivity Analysis ===\nVary key parameters by ±20%.\n\n=== Stage 4: Recommendation ===\nShould the investment proceed?",
+  "subtasks": [
+    {
+      "name": "Cash flow projection",
+      "aliases": [
+        "net present value calculation"
+      ]
+    },
+    {
+      "name": "NPV calculation",
+      "aliases": [
+        "financial sensitivity analysis"
+      ]
+    },
+    {
+      "name": "Sensitivity analysis",
+      "aliases": [
+        "break-even calculation"
+      ]
+    },
+    {
+      "name": "Investment recommendation",
+      "aliases": [
+        "investment decision"
+      ]
+    }
+  ]
+}

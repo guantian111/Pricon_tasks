@@ -1,0 +1,38 @@
+{
+  "id": "alibi_v9",
+  "name": "Art Gallery Forgery Alibi Verification",
+  "task": "Please complete the following four-stage alibi verification task in order.\n\n=== Stage 1: Suspect Timeline Extraction ===\nA forged painting was swapped with the original at the Metropolitan Gallery. The swap occurred between 6pm Saturday (closing) and 9am Monday (opening). Three staff members had weekend access:\n- Staff A (Anna): Curator. Claims she was at an art fair in another city. Flight records show departure Friday 8pm, return Sunday 10pm. Hotel check-in: Friday 10pm, check-out: Sunday 9am.\n- Staff B (Ben): Security. Claims he did his rounds Saturday at 8pm and Sunday at 8am. Security log shows rounds at 8:05pm Saturday and 8:10am Sunday. No Sunday evening round logged.\n- Staff C (Clara): Restorer. Claims she was at her studio all weekend. Studio access log shows Saturday 10am-6pm, Sunday 12pm-8pm. No activity Saturday night.\nThe gallery alarm was disarmed at 11:30pm Saturday using Ben's code, then re-armed at 2:15am. The painting swap requires 2-3 hours of work. Extract timelines.\n\n=== Stage 2: Evidence Cross-Comparison ===\nCross-reference against:\n- Gallery camera: disabled at 11:25pm Saturday\n- Alarm log: disarmed at 11:30pm Saturday (Ben's code), re-armed at 2:15am\n- Motion sensors: triggered in restoration room at 12:10am and 1:45am\n- Parking: a car matching Clara's was seen near the gallery at 11:20pm Saturday\n- Tool marks: the forgery used specialized restoration tools from Clara's studio\n\n=== Stage 3: Contradiction Resolution ===\nResolve with priority: alarm logs > motion sensors > camera > parking witness > tool evidence > suspect statements.\n\n=== Stage 4: Final Determination ===\nIdentify the forger. Determine if Ben's code was stolen or if he was involved. Assess whether multiple staff colluded.",
+  "subtasks": [
+    {
+      "name": "Suspect multi-agent timeline extraction",
+      "aliases": [
+        "gallery staff timeline",
+        "weekend access analysis",
+        "alarm code timeline"
+      ]
+    },
+    {
+      "name": "Evidence-testimony cross-comparison contradiction detection",
+      "aliases": [
+        "alarm log comparison",
+        "motion sensor analysis",
+        "tool evidence verification"
+      ]
+    },
+    {
+      "name": "Timeline contradiction resolution and consistency adjustment",
+      "aliases": [
+        "alarm code theft analysis",
+        "electronic log priority"
+      ]
+    },
+    {
+      "name": "Suspect alibi final determination",
+      "aliases": [
+        "forger identification",
+        "code theft analysis",
+        "collusion detection"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "alibi_v10",
+  "name": "Pharmaceutical Heist Alibi Verification",
+  "task": "Please complete the following four-stage alibi verification task in order.\n\n=== Stage 1: Suspect Timeline Extraction ===\nControlled substances were stolen from MedPharm's secure storage at 2:45am. Three night-shift workers:\n- Worker A (Dr. Nash): Pharmacist. Claims he was filling prescriptions in the main pharmacy. Computer log shows activity at 2:00am, 2:30am, and 3:15am. Gap from 2:30am-3:15am.\n- Worker B (Olivia): Nurse. Claims she was doing rounds on the 3rd floor. Floor access log shows 2:00am, 2:25am, 3:00am. The storage room is on the 2nd floor.\n- Worker C (Peter): Orderly. Claims he was in the cafeteria on break. Cafeteria camera shows him from 2:15am-2:40am, then he leaves toward the elevator.\nThe storage room requires both a keycard and a fingerprint. The log shows Dr. Nash's card and fingerprint at 2:44am. The theft took 5 minutes. Extract timelines.\n\n=== Stage 2: Evidence Cross-Comparison ===\nCross-reference against:\n- Storage room camera: disabled at 2:43am\n- Elevator log: elevator used at 2:40am (2nd floor), 2:50am (2nd floor)\n- Stairwell: motion sensor triggered at 2:42am (2nd floor)\n- Inventory system: drugs marked as removed at 2:46am\n- Witness: Olivia says she saw Peter on the 2nd floor at 2:38am\n\n=== Stage 3: Contradiction Resolution ===\nResolve with priority: access logs > inventory > elevator > camera > witness > suspect statements.\n\n=== Stage 4: Final Determination ===\nIdentify the thief. Determine if credentials were stolen or coerced. Note any accomplice scenarios.",
+  "subtasks": [
+    {
+      "name": "Suspect multi-agent timeline extraction",
+      "aliases": [
+        "hospital staff timeline",
+        "night shift analysis",
+        "access log timeline"
+      ]
+    },
+    {
+      "name": "Evidence-testimony cross-comparison contradiction detection",
+      "aliases": [
+        "inventory system comparison",
+        "elevator log analysis",
+        "camera disable investigation"
+      ]
+    },
+    {
+      "name": "Timeline contradiction resolution and consistency adjustment",
+      "aliases": [
+        "credential theft analysis",
+        "electronic log priority"
+      ]
+    },
+    {
+      "name": "Suspect alibi final determination",
+      "aliases": [
+        "thief identification",
+        "credential analysis",
+        "accomplice detection"
+      ]
+    }
+  ]
+}

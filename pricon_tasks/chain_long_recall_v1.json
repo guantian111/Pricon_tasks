@@ -1,0 +1,31 @@
+{
+  "id": "long_recall_v1",
+  "name": "Hospital Logistics Audit",
+  "task": "Please complete the following four-stage document analysis task.\n\n=== Stage 1: Data Extraction ===\nA 50-page hospital operations report: 12,400 admitted patients (page 3), 6 surgical wards (page 5), total surgeries performed 3,150 (page 8), average length of stay 4.2 days (page 12), emergency visits 18,700 (page 16), staff count 940 (page 22), annual operating budget $85M (page 30), infection rate 1.7% (page 38).\n\n=== Stage 2: Calculation ===\nCompute required metrics from extracted data.\n\n=== Stage 3: Cross-Verification ===\nVerify calculations against document sections.\n\n=== Stage 4: Summary ===\nCompile all findings.",
+  "subtasks": [
+    {
+      "name": "Long-document number extraction and data retrieval",
+      "aliases": [
+        "document scanning entity extraction"
+      ]
+    },
+    {
+      "name": "Calculation and aggregation from extracted data",
+      "aliases": [
+        "numerical extraction aggregation"
+      ]
+    },
+    {
+      "name": "Cross-section verification and logical reasoning",
+      "aliases": [
+        "cross-reference verification"
+      ]
+    },
+    {
+      "name": "Summary compilation and final answer",
+      "aliases": [
+        "information synthesis"
+      ]
+    }
+  ]
+}

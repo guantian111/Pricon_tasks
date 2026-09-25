@@ -1,0 +1,31 @@
+{
+  "id": "binpack_opt_v6",
+  "name": "Binpack Opt Variant 5",
+  "task": "Please complete the following four-stage bin packing task.\n\n=== Stage 1: Problem Setup ===\nPack 11 items into bins of capacity 50. Item sizes: [20, 15, 25, 18, 30, 12, 22, 28, 16, 35, 10].\n\n=== Stage 2: Greedy Packing ===\nApply first-fit decreasing.\n\n=== Stage 3: Improvement ===\nSwap items between bins.\n\n=== Stage 4: Verification ===\nCompare with lower bound.",
+  "subtasks": [
+    {
+      "name": "Problem formulation and data preparation",
+      "aliases": [
+        "item and bin definition"
+      ]
+    },
+    {
+      "name": "Greedy packing algorithm",
+      "aliases": [
+        "first-fit decreasing"
+      ]
+    },
+    {
+      "name": "Solution improvement via local search",
+      "aliases": [
+        "swap and rearrange"
+      ]
+    },
+    {
+      "name": "Optimality verification",
+      "aliases": [
+        "lower bound comparison"
+      ]
+    }
+  ]
+}

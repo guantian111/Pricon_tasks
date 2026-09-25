@@ -1,0 +1,31 @@
+{
+  "id": "recursive_expansion_v1",
+  "name": "Vineyard Harvest Growth Forecast",
+  "task": "Please complete the following four-stage sequence analysis task.\n\n=== Stage 1: Pattern Identification ===\nA vineyard starts with 120 grapevines. Each year, the number of grapevines increases by 25% due to planting, then 8 vines are removed due to disease. Track over 6 years.\n\n=== Stage 2: Term Generation ===\nGenerate the first 8 terms using the pattern.\n\n=== Stage 3: Formula Derivation ===\nTry to derive a closed-form expression.\n\n=== Stage 4: Prediction ===\nPredict term 20 and verify.",
+  "subtasks": [
+    {
+      "name": "Pattern identification and base cases",
+      "aliases": [
+        "recursive formula extraction"
+      ]
+    },
+    {
+      "name": "Term generation and iterative computation",
+      "aliases": [
+        "sequential term computation"
+      ]
+    },
+    {
+      "name": "Formula derivation",
+      "aliases": [
+        "general formula derivation"
+      ]
+    },
+    {
+      "name": "Prediction and recommendation",
+      "aliases": [
+        "large index verification"
+      ]
+    }
+  ]
+}

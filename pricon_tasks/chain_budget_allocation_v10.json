@@ -1,0 +1,31 @@
+{
+  "id": "budget_allocation_v10",
+  "name": "Budget Allocation Variant 9",
+  "task": "Please complete the following four-stage budget task.\n\n=== Stage 1: Department Allocation ===\nA retail chain: $3,000,000. Store Operations (45%), Marketing (25%), Logistics (20%), IT (10%). IT needs $100,000 for system upgrade. Each store minimum $500,000.\n\n=== Stage 2: Project Evaluation ===\nCalculate NPV for each proposed project.\n\n=== Stage 3: Constraint Optimization ===\nReallocate within budget caps.\n\n=== Stage 4: Scenario Comparison ===\nCompare allocation strategies.",
+  "subtasks": [
+    {
+      "name": "Department budget percentage allocation",
+      "aliases": [
+        "budget proportional allocation"
+      ]
+    },
+    {
+      "name": "Project NPV calculation and evaluation",
+      "aliases": [
+        "NPV calculation"
+      ]
+    },
+    {
+      "name": "Budget constraint optimization",
+      "aliases": [
+        "budget constraint optimization"
+      ]
+    },
+    {
+      "name": "Scenario comparison and decision",
+      "aliases": [
+        "counterfactual decision"
+      ]
+    }
+  ]
+}
