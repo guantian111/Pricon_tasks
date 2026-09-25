@@ -1,0 +1,4 @@
+{
+  "name": "Budget Allocation Variant 2",
+  "task": "Please complete the following four-stage budget task.\n\n=== Stage 1: Department Allocation ===\nA university: $5,000,000 budget. Sciences (35%), Humanities (25%), Engineering (25%), Arts (15%). Engineering requests $200,000 for lab upgrade. All departments face 5% cut.\n\n=== Stage 2: Project Evaluation ===\nCalculate NPV for each proposed project.\n\n=== Stage 3: Constraint Optimization ===\nReallocate within budget caps.\n\n=== Stage 4: Scenario Comparison ===\nCompare allocation strategies."
+}

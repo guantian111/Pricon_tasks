@@ -1,0 +1,4 @@
+{
+  "name": "Financial Model Variant 6",
+  "task": "Please complete the following four-stage financial analysis task.\n\n=== Stage 1: Cash Flow Projection ===\nA machine tool investment: $120,000. Labor savings: $25,000/year. Material waste reduction: $5,000/year. 6-year life.\n\n=== Stage 2: NPV Calculation ===\nCalculate NPV at 8% and 12% discount rates.\n\n=== Stage 3: Sensitivity Analysis ===\nVary key parameters by ±20%.\n\n=== Stage 4: Recommendation ===\nShould the investment proceed?"
+}

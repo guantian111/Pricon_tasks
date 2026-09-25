@@ -1,0 +1,4 @@
+{
+  "name": "Composite Cross Domain Variant 8",
+  "task": "Please complete the following four-stage multi-domain task.\n\n=== Stage 1: Information Extraction ===\nA manufacturing plant report (20 pages): 3 production lines, capacity 100K units/year each. Upgrade proposals: Line A ($2M, 20% efficiency), Line B ($1.5M, 15% efficiency), Line C ($3M, 30% efficiency). Budget: $5M.\n\n=== Stage 2: Financial Analysis ===\nCalculate NPV of the investment.\n\n=== Stage 3: Resource Allocation ===\nOptimize budget allocation.\n\n=== Stage 4: Decision ===\nRecommend the best course of action."
+}

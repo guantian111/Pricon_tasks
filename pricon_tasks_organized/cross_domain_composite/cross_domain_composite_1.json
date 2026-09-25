@@ -1,0 +1,4 @@
+{
+  "name": "Regional Logistics Fleet Expansion Analysis",
+  "task": "Please complete the following four-stage multi-domain task.\n\n=== Stage 1: Information Extraction ===\nA regional logistics company's annual report (25 pages) contains: 6 distribution centers, 82% fleet utilization, average delivery fee $220 per route. Fleet expansion proposals: Center X ($3.5M, 12% capacity increase), Center Y ($2.2M, 8% increase), Center Z ($4.1M, 18% increase). Total capital budget: $6M.\n\n=== Stage 2: Financial Analysis ===\nCalculate NPV of the investment.\n\n=== Stage 3: Resource Allocation ===\nOptimize budget allocation.\n\n=== Stage 4: Decision ===\nRecommend the best course of action."
+}

@@ -1,0 +1,4 @@
+{
+  "name": "Composite Cross Domain Variant 1",
+  "task": "Please complete the following four-stage multi-domain task.\n\n=== Stage 1: Information Extraction ===\nA company's annual report (25 pages) contains: revenue $8M, costs $5M, 3 departments. Each department proposes a project: Dept A ($200K, 25% ROI), Dept B ($350K, 18% ROI), Dept C ($150K, 30% ROI). Total budget: $500K.\n\n=== Stage 2: Financial Analysis ===\nCalculate NPV of the investment.\n\n=== Stage 3: Resource Allocation ===\nOptimize budget allocation.\n\n=== Stage 4: Decision ===\nRecommend the best course of action."
+}

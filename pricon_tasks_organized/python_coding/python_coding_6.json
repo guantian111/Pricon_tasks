@@ -1,0 +1,4 @@
+{
+  "name": "HTTP Server (socket)",
+  "task": "Please complete the following HTTP server task using only the socket library.\n\n=== Stage 1: Socket and Listener ===\nCreate a TCP socket, bind to localhost:8000, and accept connections.\n\n=== Stage 2: Request Parsing ===\nParse an HTTP request line, headers, and body (handle GET and POST).\n\n=== Stage 3: Routing and Response ===\nImplement two routes: GET /hello returns 200 with a text body; any other path returns 404. POST /echo returns the request body. Build responses with status line and Content-Length.\n\n=== Stage 4: Verification ===\nDescribe (or simulate) sending GET /hello, GET /unknown, and POST /echo with body \"hi\". Report each status code and response body.\n\n最终回答必须包含: /hello状态码=___, /unknown状态码=___, /echo返回体=___."
+}

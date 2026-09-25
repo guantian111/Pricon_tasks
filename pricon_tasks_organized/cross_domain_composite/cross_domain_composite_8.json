@@ -1,0 +1,4 @@
+{
+  "name": "Composite Cross Domain Variant 7",
+  "task": "Please complete the following four-stage multi-domain task.\n\n=== Stage 1: Information Extraction ===\nA foundation's grant report (24 pages): $10M endowment, 5% annual payout. 5 proposals: Education ($200K, 500 students), Health ($300K, 2000 patients), Arts ($150K, 50 artists), Environment ($250K, 1000 acres), Housing ($100K, 50 families).\n\n=== Stage 2: Financial Analysis ===\nCalculate NPV of the investment.\n\n=== Stage 3: Resource Allocation ===\nOptimize budget allocation.\n\n=== Stage 4: Decision ===\nRecommend the best course of action."
+}

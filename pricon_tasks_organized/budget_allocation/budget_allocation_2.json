@@ -1,0 +1,4 @@
+{
+  "name": "Budget Allocation Variant 1",
+  "task": "Please complete the following four-stage budget task.\n\n=== Stage 1: Department Allocation ===\nA company has $1,000,000 annual budget. 4 departments: Sales (40%), R&D (30%), Marketing (20%), Admin (10%). Sales wants +$50,000 for new hires. R&D needs +$80,000 for equipment.\n\n=== Stage 2: Project Evaluation ===\nCalculate NPV for each proposed project.\n\n=== Stage 3: Constraint Optimization ===\nReallocate within budget caps.\n\n=== Stage 4: Scenario Comparison ===\nCompare allocation strategies."
+}

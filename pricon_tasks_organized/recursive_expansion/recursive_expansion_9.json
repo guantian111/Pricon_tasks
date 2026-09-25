@@ -1,0 +1,4 @@
+{
+  "name": "Recursive Expansion Variant 8",
+  "task": "Please complete the following four-stage sequence analysis task.\n\n=== Stage 1: Pattern Identification ===\nA factory output increases 15% yearly. Initial: 1,000 units. Efficiency gain: 5%/year.\n\n=== Stage 2: Term Generation ===\nGenerate the first 8 terms using the pattern.\n\n=== Stage 3: Formula Derivation ===\nTry to derive a closed-form expression.\n\n=== Stage 4: Prediction ===\nPredict term 20 and verify."
+}
