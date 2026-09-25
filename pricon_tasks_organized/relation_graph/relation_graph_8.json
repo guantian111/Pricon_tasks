@@ -1,0 +1,4 @@
+{
+  "name": "Long Recall Variant 7",
+  "task": "Please complete the following four-stage document analysis task.\n\n=== Stage 1: Data Extraction ===\nA 52-page hospital operations report: 350 beds (page 4), 28,000 annual admissions (page 7), average stay 4.2 days (page 10), 1,200 staff (page 14), operating budget $180M (page 18), 15 departments (page 22), patient satisfaction 88% (page 30), 5 new equipment purchases $3.2M (page 38).\n\n=== Stage 2: Calculation ===\nCompute required metrics from extracted data.\n\n=== Stage 3: Cross-Verification ===\nVerify calculations against document sections.\n\n=== Stage 4: Summary ===\nCompile all findings."
+}

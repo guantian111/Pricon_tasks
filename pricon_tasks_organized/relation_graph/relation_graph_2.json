@@ -1,0 +1,4 @@
+{
+  "name": "Long Recall Variant 1",
+  "task": "Please complete the following four-stage document analysis task.\n\n=== Stage 1: Data Extraction ===\nA 50-page annual report contains: total revenue $12.5M (page 3), operating costs $8.2M (page 7), employee count 450 (page 12), R&D spending $2.1M (page 18), international revenue $3.8M (page 22), net profit $1.9M (page 28), dividend $0.45/share (page 33), stock price $24.50 (page 40).\n\n=== Stage 2: Calculation ===\nCompute required metrics from extracted data.\n\n=== Stage 3: Cross-Verification ===\nVerify calculations against document sections.\n\n=== Stage 4: Summary ===\nCompile all findings."
+}
