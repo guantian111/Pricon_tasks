@@ -1,0 +1,34 @@
+{
+  "id": "long_recall_v7",
+  "name": "Long Recall Variant 6",
+  "task": "Please complete the following four-stage document analysis task.\n\nA 48-page school district report: 8 schools (page 3), 5,200 students (page 5), 320 teachers (page 8), budget $42M (page 12), test scores: math 78%, reading 82% (page 18), graduation rate 91% (page 22), 3 new programs (page 28), facility upgrades $5M (page 35).\n\nCompute required metrics from extracted data.\n\nVerify calculations against document sections.\n\nCompile all findings.",
+  "subtasks": [
+    {
+      "name": "Long-document number extraction and data retrieval",
+      "aliases": [
+        "document scanning entity extraction"
+      ]
+    },
+    {
+      "name": "Calculation and aggregation from extracted data",
+      "aliases": [
+        "numerical extraction aggregation"
+      ]
+    },
+    {
+      "name": "Cross-section verification and logical reasoning",
+      "aliases": [
+        "cross-reference verification"
+      ]
+    },
+    {
+      "name": "Summary compilation and final answer",
+      "aliases": [
+        "information synthesis"
+      ]
+    }
+  ],
+  "original_id": "long_recall_v7",
+  "category": "Relation graph",
+  "index": 7
+}

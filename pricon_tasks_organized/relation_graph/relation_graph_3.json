@@ -1,0 +1,34 @@
+{
+  "id": "long_recall_v3",
+  "name": "Long Recall Variant 2",
+  "task": "Please complete the following four-stage document analysis task.\n\nA 60-page market research report: survey of 2,500 consumers (page 5), 65% prefer brand A (page 8), average spend $47/month (page 12), 3 geographic regions (page 15), 40% market share for leader (page 22), customer satisfaction 4.2/5 (page 30), 15% growth rate (page 38), 80% online purchases (page 45).\n\nCompute required metrics from extracted data.\n\nVerify calculations against document sections.\n\nCompile all findings.",
+  "subtasks": [
+    {
+      "name": "Long-document number extraction and data retrieval",
+      "aliases": [
+        "document scanning entity extraction"
+      ]
+    },
+    {
+      "name": "Calculation and aggregation from extracted data",
+      "aliases": [
+        "numerical extraction aggregation"
+      ]
+    },
+    {
+      "name": "Cross-section verification and logical reasoning",
+      "aliases": [
+        "cross-reference verification"
+      ]
+    },
+    {
+      "name": "Summary compilation and final answer",
+      "aliases": [
+        "information synthesis"
+      ]
+    }
+  ],
+  "original_id": "long_recall_v3",
+  "category": "Relation graph",
+  "index": 3
+}
